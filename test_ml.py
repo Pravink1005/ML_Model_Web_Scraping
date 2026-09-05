@@ -1,43 +1,59 @@
 from ml_predictor import predict_job_details
 
 
-job_description = """About the job
-We are looking for a seasoned Lead/Senior Domino Data Lab Engineer with solid Python expertise to architect, build, and roll out scalable data science applications and machine learning solutions. In this position, you will use the Domino Data Lab platform to create production-ready models, partner with cross-functional teams, and champion best practices throughout the ML lifecycle.
+job_description = """Only immediate joiners please.
 
-Responsibilities
+Experience: 10+ Years
 
-Architect, build, and roll out applications and machine learning models on the Domino Data Lab platform
-Create and maintain Python-based solutions using modern frameworks and libraries
-Build REST APIs to expose models and services for enterprise consumption
-Oversee Domino Projects, Workspaces, Jobs, and Environments to support data science workflows
-Apply MLOps practices covering model deployment, monitoring, and productionization
-Partner with data scientists, engineers, and stakeholders to translate business needs into technical solutions
-Connect applications with various databases and data sources
-Set up CI/CD pipelines and containerization strategies for reliable delivery
-Guide junior team members and promote software development best practices
-Maintain the reliability, scalability, and performance of deployed models and services
+Position: 1 Lead
 
-Requirements
+Location: Multiple Locations
 
-5-14 years of professional software/data engineering experience
-Expertise in Domino Data Lab, including Projects, Workspaces, Jobs, and Environments
-Proficiency in Python development and scripting
-Skills in Pandas, NumPy, and Scikit-learn or similar Python libraries
-Background in developing REST APIs with FastAPI, Flask, or Django
-Understanding of MLOps principles and the end-to-end ML model lifecycle
-Knowledge of Git, Docker, and CI/CD workflows
-Familiarity with cloud platforms such as AWS, Azure, or GCP
-Background in model deployment, monitoring, and productionization
-Capability to work with databases and data integration solutions
-Understanding of software development best practices
+Employment Type: Full-Time
 
-Nice to have
+Role Overview
 
-Background in Node.js
-Familiarity with Kubernetes for orchestration
-Knowledge of MLOps or Machine Learning platform tooling
-Proficiency in Jupyter or similar Data Science environments
-Competency in enterprise application integration"""
+We are looking for an experienced SAP SAC Planning Lead with strong hands-on expertise in SAP Analytics Cloud (SAC) Planning. The ideal candidate should have experience in planning model development, data integration, forecasting, budgeting, and working closely with business/end users.
+
+Must-Have Skills
+
+10+ years of overall experience with strong hands-on experience in SAP SAC Planning.
+Strong expertise in SAC Planning functionalities.
+Hands-on experience in:
+Planning Models
+Data Actions
+Allocations
+Forecasting
+Budgeting
+Simulation Models
+Strong experience in end-user planning processes.
+Experience in designing and developing interactive dashboards, Stories, and visualizations in SAC.
+Experience integrating SAP SAC with SAP BW and other data sources.
+Strong understanding of SAP Analytics Cloud – BI and Planning.
+Ability to gather requirements from business users and translate them into effective technical solutions.
+Strong analytical and problem-solving skills.
+Excellent communication and stakeholder management skills.
+Good-to-Have Skills
+
+Familiarity with SAP BW.
+Experience working with SAP R/3 or other enterprise data sources.
+Basic scripting knowledge; JavaScript for SAC scripting is an advantage.
+Experience in performance optimization and data accuracy.
+Experience providing end-user training and preparing technical/user documentation.
+Exposure to advanced SAC planning and simulation capabilities.
+
+Key Responsibilities
+
+Design, develop, and maintain SAC dashboards, Stories, visualizations, and planning solutions.
+Develop and maintain planning models, data actions, allocations, forecasting, and budgeting solutions.
+Integrate SAC with SAP BW and other data sources.
+Support business users in end-to-end planning and forecasting processes.
+Collaborate with stakeholders to understand business requirements and deliver scalable technical solutions.
+Ensure data accuracy, performance, and an intuitive end-user experience.
+Provide training, knowledge transfer, and documentation to end users.
+Participate in solution design, troubleshooting, and continuous improvement initiatives
+
+Skills: forecasting,stories,sac dashboards,planning models,allocations,sap sac planning,simulation models,javascript,budgeting,stakeholder management,sap bw,sap analytics cloud,data actions,visualizations,interactive dashboards"""
 
 
 result = predict_job_details(job_description)
