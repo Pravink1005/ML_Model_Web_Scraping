@@ -251,6 +251,13 @@ def detect_explicit_specialization(job_description):
     if re.search(r"\bdata\s+engineering\b|\bdata\s+engineer\b", cleaned):
         return ["Data Engineering"]
 
+    if re.search(
+        r"\bdata\s+pipelines?\b|\b(?:PySpark|Spark\s+SQL)\b|\bdata\s+warehous(?:e|ing)\b|\bELT\b",
+        cleaned,
+        re.IGNORECASE,
+    ):
+        return ["Data Engineering"]
+
     scores = []
     for idx, (specialization, patterns) in enumerate(SPECIALIZATION_PATTERNS):
         score = 0

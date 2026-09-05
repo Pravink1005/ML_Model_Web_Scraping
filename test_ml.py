@@ -1,43 +1,43 @@
 from ml_predictor import predict_job_details
 
 
-job_description = """We are looking for a Lead Data Scientist to join our collaborative team. You will play a key role in developing and implementing AI solutions across various applications, from statistical analysis to natural language processing. If you are passionate about leveraging data to create impactful solutions, we encourage you to apply.
+job_description = """About the job
+We are looking for a seasoned Lead/Senior Domino Data Lab Engineer with solid Python expertise to architect, build, and roll out scalable data science applications and machine learning solutions. In this position, you will use the Domino Data Lab platform to create production-ready models, partner with cross-functional teams, and champion best practices throughout the ML lifecycle.
 
 Responsibilities
 
-Develop and implement AI solutions, including classification, clustering, and anomaly detection
-Conduct statistical data analysis and apply machine learning techniques
-Manage complete project delivery from data preparation to model evaluation
-Utilize Python programming and SQL for data manipulation and analysis
-Engage in ML Ops and model development workflows
-Create models that are accessible for business use
-Collaborate with teams using software development methodologies and version control
-Document processes and maintain project tracking tools such as Jira
-Stay updated with new technologies and apply problem-solving skills effectively
-Deliver production-ready solutions and facilitate knowledge sharing
+Architect, build, and roll out applications and machine learning models on the Domino Data Lab platform
+Create and maintain Python-based solutions using modern frameworks and libraries
+Build REST APIs to expose models and services for enterprise consumption
+Oversee Domino Projects, Workspaces, Jobs, and Environments to support data science workflows
+Apply MLOps practices covering model deployment, monitoring, and productionization
+Partner with data scientists, engineers, and stakeholders to translate business needs into technical solutions
+Connect applications with various databases and data sources
+Set up CI/CD pipelines and containerization strategies for reliable delivery
+Guide junior team members and promote software development best practices
+Maintain the reliability, scalability, and performance of deployed models and services
 
 Requirements
 
-9+ years of experience in software engineering, specializing in Data Science
-At least 1 year of relevant leadership experience
-Proficiency in statistical data analysis, machine learning, and NLP, with a clear understanding of practical applications and limitations
-Experience in developing and implementing AI solutions, including classification, clustering, anomaly detection, and NLP
-Expertise in complete project delivery, from data preparation to model building, evaluation, and visualization
-Proficiency in Python programming and SQL, with experience in production-level code and data analysis libraries
-Familiarity with ML Ops, model development workflows, and feature engineering techniques
-Capability in manipulating data and developing models accessible for business use, with experience in Azure AI Search
-Competence in software development methodologies, code versioning (e.g., GitLab), and project tracking tools (e.g., Jira)
-Enthusiasm for learning new technologies, with expertise in problem-solving and delivering production-ready solutions
-Fluency in the UNIX command line
-Familiarity with Agile development practices
-Excellent communication skills in English, with a minimum proficiency level of B2+
+5-14 years of professional software/data engineering experience
+Expertise in Domino Data Lab, including Projects, Workspaces, Jobs, and Environments
+Proficiency in Python development and scripting
+Skills in Pandas, NumPy, and Scikit-learn or similar Python libraries
+Background in developing REST APIs with FastAPI, Flask, or Django
+Understanding of MLOps principles and the end-to-end ML model lifecycle
+Knowledge of Git, Docker, and CI/CD workflows
+Familiarity with cloud platforms such as AWS, Azure, or GCP
+Background in model deployment, monitoring, and productionization
+Capability to work with databases and data integration solutions
+Understanding of software development best practices
 
 Nice to have
 
-Knowledge of Cloud Computing
-Experience with Big Data tools
-Familiarity with visualization tools
-Proficiency in containerization tools"""
+Background in Node.js
+Familiarity with Kubernetes for orchestration
+Knowledge of MLOps or Machine Learning platform tooling
+Proficiency in Jupyter or similar Data Science environments
+Competency in enterprise application integration"""
 
 
 result = predict_job_details(job_description)
